@@ -2,6 +2,8 @@ import sys
 import os
 
 from distutils.version import StrictVersion
+
+import utils as utils
 from flask import Flask
 from jinja2 import FileSystemLoader
 from jinja2.sandbox import SandboxedEnvironment
